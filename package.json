@@ -1,0 +1,28 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "migrate": "sequelize-cli db:migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.6.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "easygraphql-format-error": "^0.0.3",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "sequelize": "^6.16.1",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.0.2"
+  }
+}
